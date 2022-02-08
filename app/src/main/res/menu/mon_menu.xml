@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/liste" android:icon="@drawable/ic_reorder_black_24dp" android:title="Liste des stagiaires"/>
+
+    <item android:id="@+id/save"
+        android:icon="@drawable/containgogle"
+        android:title="Enregistrer un satgiaire" />
+
+    <item android:id="@+id/aide"
+        android:title="Aide"/>
+
+    <item android:id="@+id/profil" android:title="Parametre"/>
+    <item android:id="@+id/close" android:title="Deconnexion"/>
+
+
+</menu>
