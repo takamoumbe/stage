@@ -10,6 +10,7 @@
 
     <item android:id="@+id/aide"
         android:title="Aide"/>
+    <item android:id="@+id/contact" android:title="Nous contacter"/>
 
     <item android:id="@+id/profil" android:title="Parametre"/>
     <item android:id="@+id/close" android:title="Deconnexion"/>

@@ -3,8 +3,6 @@
 
     <item android:id="@+id/save_sta" android:icon="@color/bleugoogle" android:title="Enregistrer stagiaire"/>
     <item android:id="@+id/acceuil" android:title="Acceuil"/>
-    <item android:id="@+id/aide" android:title="Aide"/>
-    <item android:id="@+id/profil" android:title="Parametre"/>
-    <item android:id="@+id/close" android:title="Deconnexion"/>
+
 
 </menu>

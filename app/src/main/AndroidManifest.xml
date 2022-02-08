@@ -9,9 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Liste" android:parentActivityName=".MainActivity">
+        <activity
+            android:name=".Espace_admin"
+            android:label="@string/title_activity_espace_admin"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".Liste"
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".Profil"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
@@ -28,11 +38,7 @@
         <activity
             android:name=".Acceuil"
             android:theme="@style/Theme.AppCompat.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Registrer"

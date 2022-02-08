@@ -3,6 +3,7 @@ package com.example.montp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -11,7 +12,7 @@ import android.widget.TextView;
 
 public class Profil extends AppCompatActivity {
     private EditText name,matricule,email,password,lastPass;
-    private TextView info,connecter;
+    private TextView info,connecter,annuler_operation;
     int statut =0;
     private CardView modifCli;
     Handler handler = new Handler();
@@ -27,6 +28,15 @@ public class Profil extends AppCompatActivity {
         lastPass = findViewById(R.id.lastPass);
         info = findViewById(R.id.info);
         modifCli = findViewById(R.id.modifCli);
+        annuler_operation = findViewById(R.id.textView8);
+
+        annuler_operation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               Intent intent = new Intent(Profil.this,MainActivity.class);
+               startActivity(intent);
+            }
+        });
 
         modifCli.setOnClickListener(new View.OnClickListener() {
             @Override
